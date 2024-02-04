@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { DestinoViajeComponent } from "./destino-viaje/destino-viaje.component";
-import { ListaDestinosComponent } from "./lista-destinos/lista-destinos.component";
+import { DestinoViajeComponent } from './destino-viaje/destino-viaje.component';
+import { ListaDestinosComponent } from './lista-destinos/lista-destinos.component';
 
 @Component({
     selector: 'app-root',

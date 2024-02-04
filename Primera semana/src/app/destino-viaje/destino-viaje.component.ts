@@ -1,5 +1,6 @@
-import { Component,Input} from '@angular/core';
+import { Component,HostBinding,Input} from '@angular/core';
 import { DestinoViaje } from '../../src/app/models/destino-viaje.model';
+
 
 
 @Component({
@@ -11,6 +12,7 @@ import { DestinoViaje } from '../../src/app/models/destino-viaje.model';
 })
 export class DestinoViajeComponent {
   @Input()destino: DestinoViaje;
+  @HostBinding('attr.class') ccsClass ='col-md-4';
   constructor(){
     
   }
